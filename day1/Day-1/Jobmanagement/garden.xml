@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Garden>
+<trees Botanical_name="Mango" Age="50" Suitable_climate="Rainy" medicinal_use="twigs"/>
+<plants Botanical_name="Lilly" Age="20" Suitable_climate="Rainy" medicinal_use="diuretic"/>
+<herbs  Botanical_name="Peony" Age="1" Suitable_climate="Mansoon" medicinal_use="geonea"/>                                                                                 >                                                                            
+</Garden>

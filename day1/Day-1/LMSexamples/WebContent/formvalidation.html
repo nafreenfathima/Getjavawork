@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Application Form</title>
+        <script type="text/javascript">
+            function validate()
+            {
+                var username =document.getElementById("uname").value;
+                var userpassword=document.getElementById("upass").value;
+                var useremail=document.getElementById("uemail").value;
+        
+                //validate user Name
+                if(username=="")
+                {
+                    alert("User Name is blank");
+                    return false;
+                }
+                else if(userpassword=="")
+                {
+                    alert("Password is blank");
+                    return false;
+                }
+                else if(useremail=="")
+                {
+                    alert("Email is blank");
+                    return false;
+                }
+                else
+                true;
+            }
+        </script>
+   
+</head>
+
+<body>
+    <form action="message.html">
+        
+        
+    User Name<input id="uname" type="text"><br>
+    Password<input id="upass" type="password"><br>
+    Email<input id="uemail" type="email"><br>
+<input type ="reset" name="rs" value="Reset">
+<button type="submit" onclick="return validate();">submit</button>
+</form>
+</body>
+</html>
